@@ -1,7 +1,13 @@
 h1 {
+    font-family: 'Bungee Shade', serif;
     color: red;
 }
 
 h2 {
+    font-family: 'Rakkas', serif;
     color: red;
+}
+
+p {
+    font-family: 'Do Hyeon', serif;
 }
