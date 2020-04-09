@@ -4,26 +4,6 @@ h1 {
     color: red;
 }
 
-#myHeader {
-    background-image: url("./images/ravenloft.jpg");
-}
-
-#myReading {
-    background-image: url("./images/books.jpg");
-}
-
-#myPainting {
-    background-image: url("./images/paintbrushes.jpg");
-}
-
-#myGaming {
-    background-image: url("./images/gaming.jpg");
-}
-
-#myOutdoors {
-    background-image: url("./images/detecting.jpg")
-}
-
 h2 {
     font-family: 'Rakkas', serif;
     color: red;
@@ -31,4 +11,134 @@ h2 {
 
 p {
     font-family: 'Do Hyeon', serif;
+}
+
+.myHeader {
+    position: relative;
+    background: rgb(62, 68, 78);
+    overflow: hidden;
+}
+
+.myHeader:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
+    background-image: url("./images/ravenloft.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.myReading {
+    position: relative;
+    background: rgb(62, 68, 78);
+    overflow: hidden;
+}
+
+.myReading:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
+    background-image: url("./images/books.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.myPainting {
+    position: relative;
+    background: rgb(62, 68, 78);
+    overflow: hidden;
+}
+
+.myPainting:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
+    background-image: url("./images/paintbrushes.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.myGaming {
+    position: relative;
+    background: rgb(62, 68, 78);
+    overflow: hidden;
+}
+
+.myGaming:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
+    background-image: url("./images/gaming.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.myOutdoors {
+    position: relative;
+    background: rgb(62, 68, 78);
+    overflow: hidden;
+}
+
+.myOutdoors:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
+    background-image: url("./images/detecting.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
