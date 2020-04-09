@@ -4,6 +4,26 @@ h1 {
     color: red;
 }
 
+#myHeader {
+    background-image: url("./images/ravenloft.jpg");
+}
+
+#myReading {
+    background-image: url("./images/books.jpg");
+}
+
+#myPainting {
+    background-image: url("./images/paintbrushes.jpg");
+}
+
+#myGaming {
+    background-image: url("./images/gaming.jpg");
+}
+
+#myOutdoors {
+    background-image: url("./images/detecting.jpg")
+}
+
 h2 {
     font-family: 'Rakkas', serif;
     color: red;
