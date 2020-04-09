@@ -2,6 +2,7 @@ h1 {
     text-align: center;
     font-family: 'Bungee Shade', serif;
     color: red;
+    opacity: 1.0;
 }
 
 h2 {
@@ -13,57 +14,40 @@ p {
     font-family: 'Do Hyeon', serif;
 }
 
-.myHeader {
-    position: relative;
-    background: rgb(62, 68, 78);
-    overflow: hidden;
-}
-
-.myHeader:before {
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0.6;
+#introMain{
+    position:relative;
+    }
+    div#introFirst{
     background-image: url("./images/ravenloft.jpg");
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
-}
-
-.myReading {
-    position: relative;
-    background: rgb(62, 68, 78);
-    overflow: hidden;
-}
-
-.myReading:before {
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
+    opacity:0.3;
+    width: 1890px;
+    height:200px;
+    }
+    div#introSecond{
+    width:1890px;
+    height:200px;
+    position:absolute;
     top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0.6;
+    left:0;
+    }
+
+#readingMain{
+    position:relative;
+    }
+    div#readingFirst{
     background-image: url("./images/books.jpg");
     background-repeat: no-repeat;
-    background-position: 50% 0;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
-}
+    opacity:0.3;
+    width: 1890px;
+    height:200px;
+    }
+    div#readingSecond{
+    width:1890px;
+    height:200px;
+    position:absolute;
+    top: 0;
+    left:0;
+    }
 
 .myPainting {
     position: relative;
@@ -80,7 +64,7 @@ p {
     width: 100%;
     height: 100%;
     z-index: 1;
-    opacity: 0.6;
+    opacity: 0.4;
     background-image: url("./images/paintbrushes.jpg");
     background-repeat: no-repeat;
     background-position: 50% 0;
@@ -106,7 +90,7 @@ p {
     width: 100%;
     height: 100%;
     z-index: 1;
-    opacity: 0.6;
+    opacity: 0.4;
     background-image: url("./images/gaming.jpg");
     background-repeat: no-repeat;
     background-position: 50% 0;
@@ -132,7 +116,7 @@ p {
     width: 100%;
     height: 100%;
     z-index: 1;
-    opacity: 0.6;
+    opacity: 0.4;
     background-image: url("./images/detecting.jpg");
     background-repeat: no-repeat;
     background-position: 50% 0;
