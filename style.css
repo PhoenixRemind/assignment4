@@ -6,25 +6,37 @@ h1 {
 }
 
 h2 {
+    text-align: center;
     font-family: 'Rakkas', serif;
     color: red;
 }
 
 p {
+    text-align: center;
     font-family: 'Do Hyeon', serif;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 300px;
+  }
 
 #introMain{
     position:relative;
     }
     div#introFirst{
     background-image: url("./images/ravenloft.jpg");
-    opacity:0.3;
-    width: 1890px;
-    height:200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:0.2;
+    width: 100%;
+    height:500px;
     }
     div#introSecond{
-    width:1890px;
+    width:100%;
     height:200px;
     position:absolute;
     top: 0;
@@ -37,12 +49,13 @@ p {
     div#readingFirst{
     background-image: url("./images/books.jpg");
     background-repeat: no-repeat;
-    opacity:0.3;
-    width: 1890px;
-    height:200px;
+    background-size: cover;
+    opacity:0.2;
+    width: 100%;
+    height:500px;
     }
     div#readingSecond{
-    width:1890px;
+    width:100%;
     height:200px;
     position:absolute;
     top: 0;
@@ -55,12 +68,13 @@ p {
     div#paintingFirst{
     background-image: url("./images/paintbrushes.jpg");
     background-repeat: no-repeat;
-    opacity:0.3;
-    width: 1890px;
-    height:200px;
+    background-size: cover;
+    opacity:0.2;
+    width: 100%;
+    height:500px;
     }
     div#paintingSecond{
-    width:1890px;
+    width:100%;
     height:200px;
     position:absolute;
     top: 0;
@@ -73,12 +87,13 @@ p {
     div#gamingFirst{
     background-image: url("./images/gaming.jpg");
     background-repeat: no-repeat;
-    opacity:0.3;
-    width: 1890px;
-    height:200px;
+    background-size: cover;
+    opacity:0.2;
+    width: 100%;
+    height:500px;
     }
     div#gamingSecond{
-    width:1890px;
+    width:100%;
     height:200px;
     position:absolute;
     top: 0;
@@ -91,12 +106,13 @@ p {
     div#outdoorFirst{
     background-image: url("./images/detecting.jpg");
     background-repeat: no-repeat;
-    opacity:0.3;
-    width: 1890px;
-    height:200px;
+    background-size: cover;
+    opacity:0.2;
+    width: 100%;
+    height:500px;
     }
     div#outdoorSecond{
-    width:1890px;
+    width:100%;
     height:200px;
     position:absolute;
     top: 0;
