@@ -14,18 +14,38 @@ h2 {
 p {
     text-align: center;
     font-family: 'Do Hyeon', serif;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
-.center {
+body {
+    background-color: rgb(218, 218, 218);
+}
+
+figcaption {
+    text-align: center;
+}
+
+.gamingPic {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    height: 300px;
+    height: 280px;
+  }
+
+  .outdoorPic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 400px;
   }
 
 #introMain{
     position:relative;
+    margin-left: 200px;
+    margin-right: 200px;
     }
     div#introFirst{
     background-image: url("./images/ravenloft.jpg");
@@ -33,7 +53,7 @@ p {
     background-size: cover;
     opacity:0.2;
     width: 100%;
-    height:500px;
+    height:800px;
     }
     div#introSecond{
     width:100%;
@@ -45,6 +65,8 @@ p {
 
 #readingMain{
     position:relative;
+    margin-left: 200px;
+    margin-right: 200px;
     }
     div#readingFirst{
     background-image: url("./images/books.jpg");
@@ -64,6 +86,8 @@ p {
 
 #paintingMain{
     position:relative;
+    margin-left: 200px;
+    margin-right: 200px;
     }
     div#paintingFirst{
     background-image: url("./images/paintbrushes.jpg");
@@ -83,6 +107,8 @@ p {
 
 #gamingMain{
     position:relative;
+    margin-left: 200px;
+    margin-right: 200px;
     }
     div#gamingFirst{
     background-image: url("./images/gaming.jpg");
@@ -90,7 +116,7 @@ p {
     background-size: cover;
     opacity:0.2;
     width: 100%;
-    height:500px;
+    height:600px;
     }
     div#gamingSecond{
     width:100%;
@@ -102,6 +128,8 @@ p {
 
 #outdoorMain{
     position:relative;
+    margin-left: 200px;
+    margin-right: 200px;
     }
     div#outdoorFirst{
     background-image: url("./images/detecting.jpg");
@@ -109,7 +137,7 @@ p {
     background-size: cover;
     opacity:0.2;
     width: 100%;
-    height:500px;
+    height:800px;
     }
     div#outdoorSecond{
     width:100%;
