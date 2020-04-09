@@ -49,80 +49,56 @@ p {
     left:0;
     }
 
-.myPainting {
-    position: relative;
-    background: rgb(62, 68, 78);
-    overflow: hidden;
-}
-
-.myPainting:before {
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0.4;
+#paintingMain{
+    position:relative;
+    }
+    div#paintingFirst{
     background-image: url("./images/paintbrushes.jpg");
     background-repeat: no-repeat;
-    background-position: 50% 0;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
-}
-
-.myGaming {
-    position: relative;
-    background: rgb(62, 68, 78);
-    overflow: hidden;
-}
-
-.myGaming:before {
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
+    opacity:0.3;
+    width: 1890px;
+    height:200px;
+    }
+    div#paintingSecond{
+    width:1890px;
+    height:200px;
+    position:absolute;
     top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0.4;
+    left:0;
+    }
+
+#gamingMain{
+    position:relative;
+    }
+    div#gamingFirst{
     background-image: url("./images/gaming.jpg");
     background-repeat: no-repeat;
-    background-position: 50% 0;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
-}
-
-.myOutdoors {
-    position: relative;
-    background: rgb(62, 68, 78);
-    overflow: hidden;
-}
-
-.myOutdoors:before {
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
+    opacity:0.3;
+    width: 1890px;
+    height:200px;
+    }
+    div#gamingSecond{
+    width:1890px;
+    height:200px;
+    position:absolute;
     top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0.4;
+    left:0;
+    }
+
+#outdoorMain{
+    position:relative;
+    }
+    div#outdoorFirst{
     background-image: url("./images/detecting.jpg");
     background-repeat: no-repeat;
-    background-position: 50% 0;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
-}
+    opacity:0.3;
+    width: 1890px;
+    height:200px;
+    }
+    div#outdoorSecond{
+    width:1890px;
+    height:200px;
+    position:absolute;
+    top: 0;
+    left:0;
+    }
