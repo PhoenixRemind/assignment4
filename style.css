@@ -14,8 +14,8 @@ h2 {
 p {
     text-align: center;
     font-family: 'Do Hyeon', serif;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
     font-size: 0.8vmax;
 }
 
@@ -59,6 +59,42 @@ body {
     left: 9%;
     font-size: 0.8vmax;
     left: 78%;
+}
+
+.readPicLeft {
+    position: absolute;
+    width: 23%;
+    padding: 5px;
+    height: 400px;
+    left: 1.5%;
+    top: 115%;
+}
+
+.readPicCenL {
+    position: absolute;
+    width: 23%;
+    padding: 5px;
+    height: 400px;
+    left: 26%;
+    top: 115%;
+}
+
+.readPicCenR {
+    position: absolute;
+    width: 23%;
+    padding: 5px;
+    height: 400px;
+    left: 50.5%;
+    top: 115%;
+}
+
+.readPicRight {
+    position: absolute;
+    width: 23%;
+    padding: 5px;
+    height: 400px;
+    left: 75%;
+    top: 115%;
 }
 
 .paintPicLeft {
@@ -145,7 +181,7 @@ body {
     background-size: cover;
     opacity:0.2;
     width: 100%;
-    height:500px;
+    height:700px;
     }
     div#readingSecond{
     width:100%;
