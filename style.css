@@ -32,6 +32,14 @@ body {
     font-size: 0.9vmax;
 }
 
+.mimic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 430px;
+}
+
 #halflingCap {
     position: absolute;
     top: 220%;
@@ -160,7 +168,7 @@ body {
     background-size: cover;
     opacity:0.2;
     width: 100%;
-    height: 800px;
+    height: 860px;
     }
     div#introSecond{
     width:100%;
@@ -248,7 +256,7 @@ body {
     }
     div#outdoorSecond{
     width:100%;
-    height:200%;
+    height:200px;
     position:absolute;
     top: 0;
     left:0;
